@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jogeek/static/css/main.1d0f0ee6.css",
+    "main.js": "/jogeek/static/js/main.43edc964.js",
+    "static/js/453.068e024d.chunk.js": "/jogeek/static/js/453.068e024d.chunk.js",
+    "static/media/CongoD.png": "/jogeek/static/media/CongoD.c2d9e3d879d895240fc9.png",
+    "static/media/slick.svg": "/jogeek/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/jogeek/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/jogeek/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/jogeek/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/jogeek/index.html",
+    "main.1d0f0ee6.css.map": "/jogeek/static/css/main.1d0f0ee6.css.map",
+    "main.43edc964.js.map": "/jogeek/static/js/main.43edc964.js.map",
+    "453.068e024d.chunk.js.map": "/jogeek/static/js/453.068e024d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d0f0ee6.css",
+    "static/js/main.43edc964.js"
+  ]
+}
