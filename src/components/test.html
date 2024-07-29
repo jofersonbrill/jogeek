@@ -1,0 +1,83 @@
+<article className='formations'>
+    
+    <article className='article1 position1'>
+        <div className="haut">
+          <i class="fa-brands fa-css3-alt"></i>
+        </div>
+        <div className="bas">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel repudiandae possimus explicabo quis rerum incidunt, tenetur sint veniam excepturi a ipsam suscipit similique alias inventore modi eveniet. Eius, doloremque et?</p>
+            <button><a href="#">Decouvrir</a></button>
+        </div>
+    </article>
+
+    <article className='article1'>
+        <div className="haut">
+            <i class="fa-brands fa-react"></i>
+        </div>
+        <div className="bas">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel repudiandae possimus explicabo quis rerum incidunt, tenetur sint veniam excepturi a ipsam suscipit similique alias inventore modi eveniet. Eius, doloremque et?</p>
+            <button><a href="#">Decouvrir</a></button>
+        </div>
+    </article>
+
+        <article className='article1 position3'>
+        <div className="haut">
+            <i class="fa-brands fa-node"></i>
+        </div>
+        <div className="bas">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel repudiandae possimus explicabo quis rerum incidunt, tenetur sint veniam excepturi a ipsam suscipit similique alias inventore modi eveniet. Eius, doloremque et?</p>
+            <button><a href="#">Decouvrir</a></button>
+        </div>
+        </article>
+
+    </article>
+
+      
+    <aside className="slider-container">
+        <Slider {...settings}>
+              <div><img src={CongoD} alt=''/></div>
+              <div><img src={CongoD} alt=''/></div>
+              <div><img src={CongoD} alt=''/></div>
+              <div><img src={CongoD} alt=''/></div>
+        </Slider>
+  </aside>
+
+  <div className='Box'>
+    <a href='#'>
+      <i class="fa-brands fa-facebook"></i>
+      <h4>Facebook</h4>
+      <span>Ma page Facebook</span>
+    </a>
+  </div>
+  <div className='Box'>
+    <a href='#'>
+      <i class="fa-brands fa-instagram"></i>
+      <h4>Instagram</h4>
+      <span>Ma page Intagram</span>
+    </a>
+  </div>
+  <div className='Box'>
+  <a href='#'>
+      <i class="fa-brands fa-discord"></i>
+      <h4>Discord</h4>
+      <span>Mon serveur Discord</span>
+  </a>
+  </div>
+  <div className='Box'>
+  <a href='#'>
+      <i class="fa-brands fa-github"></i>
+      <h4>Github</h4>
+      <span>Mon serveur Github</span>
+  </a>
+  </div>
+
+
+  initial={{opacity:0}}
+                    animate={{
+                        opacity:1,
+                        scale: [0.3, 1.1, 0.9, 1.03, 0.97, 1]
+                    }}
+                    transition={{
+                        duration:0.9
+                    }}
+                    exit={{opacity:0}}
