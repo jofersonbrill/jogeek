@@ -81,6 +81,8 @@ export default class Roadmap extends Component{
                     <div className="SectionR">
                         <motion.div
 
+                        className="resume"
+
                         initial = {{
                             x: -500,
                             Y:-300
@@ -119,7 +121,7 @@ export default class Roadmap extends Component{
                                 repeatDelay: 1
                                 }}
 
-                                className='arrow-bottom'
+                                className='arrow-bottom button-cntr'
                                 >
 
                                 <a onClick={() => {
@@ -135,6 +137,7 @@ export default class Roadmap extends Component{
 
 
                         </motion.div>
+
                         <div className="iconfa">
                            <motion.i 
 
@@ -185,6 +188,8 @@ export default class Roadmap extends Component{
 
                     <motion.div
 
+                    className="resume"
+
                             initial = {{
                                 x: 500,
                                 Y:300
@@ -204,7 +209,7 @@ export default class Roadmap extends Component{
 
 
                     > 
-                        <h3><span className="tag tag1">2</span>CSS3</h3>
+                        <h3><span className="tag tag1 ">2</span>CSS3</h3>
                             vous rêver de devenir developpeur web ? Débuter votre voyage dans le developpement web aujourd'hui 
                         Nos cours personnalisés vous guide pas à pas vers la maitrise du code,
                         et transformer votre passion en carrière
@@ -249,6 +254,8 @@ export default class Roadmap extends Component{
 
                         <motion.div
 
+                        className="resume"
+
                             initial = {{
                                 x: -500,
                                 Y:-300
@@ -286,7 +293,7 @@ export default class Roadmap extends Component{
                                 repeatDelay: 1
                                 }}
 
-                                className='arrow-bottom'
+                                className='arrow-bottom button-cntr'
                                 >
 
                                 <a onClick={() => {
@@ -349,6 +356,8 @@ export default class Roadmap extends Component{
                         </div>
                         <motion.div
 
+                        className="resume"
+
                             initial = {{
                                 x: 500,
                                 Y:300
@@ -405,6 +414,9 @@ export default class Roadmap extends Component{
                     </div>
                     <div id="FSASS" className="SectionR">
                         <motion.div
+
+                            className="resume"
+
                             initial = {{
                                 x: -500,
                                 Y:-300
@@ -442,7 +454,7 @@ export default class Roadmap extends Component{
                             repeatDelay: 1
                             }}
 
-                            className='arrow-bottom'
+                            className='arrow-bottom button-cntr'
                             >
 
                             <a onClick={() => {
@@ -502,6 +514,9 @@ export default class Roadmap extends Component{
                              className="fa-brands fa-js js"></motion.i>
                         </div>
                         <motion.div
+
+                            className="resume"
+
                             initial = {{
                                 x: 500,
                                 Y:300
@@ -555,6 +570,7 @@ export default class Roadmap extends Component{
                     </div>
                     <div id="FREACT" className="SectionR">
                         <motion.div
+                        className="resume"
                             initial = {{
                                 x: -500,
                                 Y:-300
@@ -591,7 +607,7 @@ export default class Roadmap extends Component{
                         repeatDelay: 1
                         }}
 
-                        className='arrow-bottom'
+                        className='arrow-bottom button-cntr'
                         >
 
                         <a onClick={() => {
@@ -682,6 +698,7 @@ export default class Roadmap extends Component{
                     </div>
                     <div id="FNODEJS" className="SectionR">
                         <motion.div
+                        className="resume"
                             initial = {{
                                 x: -500,
                                 Y:-300
@@ -721,7 +738,7 @@ export default class Roadmap extends Component{
                         repeatDelay: 1
                         }}
 
-                        className='arrow-bottom'
+                        className='arrow-bottom button-cntr'
                         >
 
                         <a onClick={() => {
@@ -780,6 +797,7 @@ export default class Roadmap extends Component{
                         </div>
 
                         <motion.div
+                        className="resume"
                             initial = {{
                                 x: 500,
                                 Y:300
