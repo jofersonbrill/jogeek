@@ -1,6 +1,7 @@
 {
   "name": "jogeek",
   "version": "0.1.0",
+  "homepage": "https://jofersonbrill.github.io/jogeek",
   "private": true,
   "dependencies": {
     "@gsap/react": "^2.1.1",
