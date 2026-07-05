@@ -59,7 +59,7 @@ export default class About extends Component{
                         behavior: 'smooth',
                         duration: 0.4,
                       });
-                    } }><i class="fa-solid fa-circle-chevron-down"></i></a>
+                    } }><i className="fa-solid fa-circle-chevron-down"></i></a>
 
                   </motion.p>
 

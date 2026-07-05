@@ -89,7 +89,7 @@ export default class Contact extends Component{
                                     behavior: 'smooth',
                                     duration: 0.4,
                                 });
-                                } }><i class="fa-solid fa-circle-chevron-down"></i></a>
+                                } }><i className="fa-solid fa-circle-chevron-down"></i></a>
 
                  </motion.p>
 
@@ -97,7 +97,7 @@ export default class Contact extends Component{
                     <section id="suivant" className="SecCnt1">
                         <div className="info1">
                             <div>
-                                <i class="fa-solid fa-location-dot"></i>
+                                <i className="fa-solid fa-location-dot"></i>
                             </div>
                             <div className="para1">
                                 <h3>Adresse :</h3>
@@ -107,7 +107,7 @@ export default class Contact extends Component{
 
                         <div className="info1">
                             <div>
-                                <i class="fa-solid fa-mobile"></i>
+                                <i className="fa-solid fa-mobile"></i>
                             </div>
                             <div className="para1">
                                 <h3>Téléphone :</h3>
@@ -117,7 +117,7 @@ export default class Contact extends Component{
 
                         <div className="info1">
                             <div>
-                                <i class="fa-solid fa-envelope"></i>
+                                <i className="fa-solid fa-envelope"></i>
                             </div>
                             <div className="para1">
                                 <h3>Email</h3>

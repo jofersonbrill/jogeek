@@ -10,8 +10,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React, { Component } from 'react';
-import Slider from "react-slick";
-import CongoD from './images/CongoD.png';
+//import Slider from "react-slick";
+//import CongoD from './images/CongoD.png';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'animate.css';
@@ -56,7 +56,7 @@ export default class Home extends Component{
 
     render(){
 
-        const settings = {
+        /*const settings = {
             dots: true,
             infinite: true,
             slidesToShow: 4,
@@ -64,7 +64,7 @@ export default class Home extends Component{
             autoplay: true,
             autoplaySpeed: 4000,
             pauseOnHover: true
-          };
+          };*/
 
         return(
 
@@ -208,7 +208,9 @@ export default class Home extends Component{
                 <button>Decouvrir</button>
               </motion.p>
 
-            </section><section className='Section4'>
+            </section>
+            
+            <section className='Section4'>
 
               <motion.div
                 variants={fadeIn("up", 0.2)}
@@ -230,12 +232,7 @@ export default class Home extends Component{
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.2 }}
                 className="slider-container">
-                <Slider {...settings}>
-                  <div><img src={CongoD} alt='' /></div>
-                  <div><img src={CongoD} alt='' /></div>
-                  <div><img src={CongoD} alt='' /></div>
-                  <div><img src={CongoD} alt='' /></div>
-                </Slider>
+               
               </motion.aside>
 
             </section>
